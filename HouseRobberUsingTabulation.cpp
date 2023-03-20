@@ -1,5 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
+//TC : O(n)
+//SC : O(n)
+
 int solution(int n, vector<int> &houses, vector<int> &dp) {
 	//base conditions
 	dp[0] = houses[0];
